@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+  color: rgb(48, 48, 48);
+}
+
+#wrapper
+{width: 1200px;
+	height: auto;
+	margin: auto;
+	
+}
+
+header{ width: 100%;
+	height: 60px;
+	padding: 20px;
+  position: relative;
+}
+nav {
+    width: 70%;
+    height: auto;
+    float: left;
+      margin: 10px 0px 0px 20px;
+      color: black;
+      text-decoration: none;
+  }
+  
+  
+  a {
+    
+      color: black;
+      text-decoration: none;
+      font-size: 1em;
+      padding: 10px 20px;
+  }
+      a:hover{
+    
+      text-decoration:underline; 
+  }
+
+  li{
+    display: inline;
+    list-style-type: none;
+  }
+
+header img{  
+  width: 350px;
+  border-radius: 999em 999em 40px  40px;
+position: absolute;
+top: 100px;
+left: 1200px;
+z-index: 3;
+
+}
+  
+  html,
+body {
+  margin: 0;
+}
+
+.scroll {
+  position: relative;
+  width: 100vw;
+  height: 15%;
+  min-height: 150px;
+  z-index: 1;
+  
+  overflow: hidden;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.m-scroll {
+  overflow_ hidden;
+  height: 100%;
+  white-space: nowrap;
+  animation: scrollText 25s infinite linear;
+  margin: 0;
+  font-size: 0;
+  display: inline-block;
+}
+
+span {
+  font-size: 100px;
+  display: inline-block;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
